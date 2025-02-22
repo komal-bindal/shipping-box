@@ -14,7 +14,7 @@ const Dropdown = ({
 
   useEffect(() => {
     if (value !== selectedOption) setSelectedOption(value || defaultOption);
-  }, [value]);
+  }, [value, selectedOption, defaultOption]);
 
   const handleChange = (event) => {
     setSelectedOption(event.target.value);

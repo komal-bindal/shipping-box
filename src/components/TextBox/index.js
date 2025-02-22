@@ -19,7 +19,7 @@ const TextBox = ({
 
   useEffect(() => {
     if (value !== currentValue) setCurrentValue(value ?? "");
-  }, [value]);
+  }, [value, currentValue]);
 
   return (
     <div className="text-box">
