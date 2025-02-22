@@ -22,6 +22,8 @@ export const validateForm = (attribute, value) => {
     case "boxColor":
       if (!value) error = "Box color is required";
       break;
+    default:
+      break;
   }
   return error;
 };
