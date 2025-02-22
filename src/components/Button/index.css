@@ -1,0 +1,37 @@
+.button {
+  width: 50%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #45b6fe;
+  border-radius: 15px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: #45b6fe solid 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: white;
+  border: #45b6fe solid 2px;
+  color: #45b6fe;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button:disabled,
+.button.disabled {
+  background-color: grey;
+  border: grey solid 2px;
+  color: darkgray;
+  cursor: not-allowed;
+}
+
+.button:disabled:hover,
+.button.disabled:hover {
+  background-color: grey;
+  color: darkgray;
+  box-shadow: none;
+}

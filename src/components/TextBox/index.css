@@ -1,0 +1,36 @@
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin: 4px;
+}
+
+.label-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.label {
+  padding: 2px;
+  margin-right: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.form-error {
+  color: red;
+  font-size: 12px;
+}
+
+.input {
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.input:focus {
+  outline: none;
+}
